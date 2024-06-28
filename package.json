@@ -1,0 +1,16 @@
+{
+  "name": "testomat_io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@testomatio/reporter": "^1.4.4",
+    "@types/node": "^20.14.9"
+  }
+}
