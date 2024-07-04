@@ -23,6 +23,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html', { open: 'never' }],
+    // ['junit', { outputFile: 'junit-report/jest-junit.xml' }],
     ['list'],
     ['./node_modules/@testomatio/reporter/lib/adapter/playwright.js', {
     apiKey: process.env.TESTOMATIO,

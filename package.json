@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tests": "npx playwright test"
+    "tests": "export TESTOMATIO=tstmt_09uzHJxAvd81x1ZtuEQ6ZN3Wu5W0cidP9Q1719420251 DEBUG=@testomatio/reporter:* && npx playwright test --headed"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.45.0",
-    "@testomatio/reporter": "^1.4.4",
+    "@testomatio/reporter": "^1.4.5",
     "@types/node": "^20.14.9"
   }
 }
